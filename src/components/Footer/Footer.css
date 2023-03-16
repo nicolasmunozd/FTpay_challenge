@@ -1,0 +1,55 @@
+.Footer{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    padding: 0px 112px 40px;
+    gap: 24px;
+
+    height: 132px;
+
+    /* Neutral/900 */
+
+    background: #111827;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.Footer img{
+    position: absolute;
+    left: 50%;
+}
+
+
+/* hr{
+    border: 1px solid white;
+} */
+
+.Footer__container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Footer__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga' off;
+
+    /* Neutral/400 */
+
+    color: #9CA3AF;
+}
+
+.Footer__text a{
+    color: #ffffff;
+}
+

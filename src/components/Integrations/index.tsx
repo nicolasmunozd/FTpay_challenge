@@ -17,15 +17,15 @@ const Integrations = () =>{
             </div>
             <div className='Integrations__container__logo'>
                 <div className='Integrations__Logo--row'>
-                    <Logo class_name="Logo_integration" img={SLACK} alt="Logo de Slack" />
-                    <Logo class_name="Logo_integration" img={QUICKBOOKS} alt="Logo de QuickBooks" />
-                    <Logo class_name="Logo_integration" img={MAILCHIMP} alt="Logo de Mailchimp" />
-                    <Logo class_name="Logo_integration" img={HUBSPOT} alt="Logo de HubSpot" />
+                    <Logo class_name="Logo_integration" img={ SLACK } alt="Logo de Slack" />
+                    <Logo class_name="Logo_integration" img={ QUICKBOOKS } alt="Logo de QuickBooks" />
+                    <Logo class_name="Logo_integration" img={ MAILCHIMP } alt="Logo de Mailchimp" />
+                    <Logo class_name="Logo_integration" img={ HUBSPOT } alt="Logo de HubSpot" />
                 </div>
                 <div className='Integrations__Logo--row'>
-                    <Logo class_name="Logo_integration" img={ZAPIER} alt="Logo de Zapier" />
-                    <Logo class_name="Logo_integration" img={GOOGLE} alt="Logo de Google Analytics" />
-                    <Logo class_name="Logo_integration" img={MARKETO} alt="Logo de Marketo" />
+                    <Logo class_name="Logo_integration" img={ ZAPIER } alt="Logo de Zapier" />
+                    <Logo class_name="Logo_integration" img={ GOOGLE } alt="Logo de Google Analytics" />
+                    <Logo class_name="Logo_integration" img={ MARKETO } alt="Logo de Marketo" />
                 </div>
                 
                 
