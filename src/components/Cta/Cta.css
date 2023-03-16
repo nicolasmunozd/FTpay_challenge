@@ -1,0 +1,113 @@
+.Cta{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 112px;
+    gap: 10px;
+
+    background: #111827;
+    align-items: center;
+}
+
+.Cta__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 208px;
+    gap: 40px;
+
+    width: 1216px;
+    height: 316px;
+
+    border-radius: 8px;
+}
+
+.Cta__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-bottom: 40px;
+    height: 132px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Cta__title{
+    height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.Cta__text{
+    
+    height: 56px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .Cta{
+        height: 444px;
+    }
+    .Cta__title{
+        width:688px;
+        
+        font-size: 48px;
+    }
+    .Cta__text{
+        width:688px;
+        font-size: 18px;
+    }
+}
+@media (min-width: 1440px){
+    .Cta{
+        height: 444px;
+    }
+    .Cta__title{
+        width: 800px;
+        font-size: 36px;
+       }
+   .Cta__text{
+        width: 800px;
+        font-size: 18px;
+   }
+}
+
+@media (max-width: 767px) {
+    .Cta{
+        height: 408px;
+    }
+    .Cta__title{
+        font-size: 30px;
+        min-width: 335px;
+        min-height: 80px;
+    }
+    .Cta__text{
+        font-size: 16px;
+        min-width: 335px;
+        margin-top: 30px;
+    }
+    .Cta__button{
+        margin-top: 90px;
+    }
+}
