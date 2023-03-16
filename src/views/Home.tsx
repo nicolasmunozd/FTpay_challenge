@@ -7,7 +7,7 @@ const Home = ()=>{
         <React.Fragment>
             <Hero />
             <Features />
-            
+            <Integrations />
         </React.Fragment>
         )
 }
