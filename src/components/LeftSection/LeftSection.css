@@ -1,0 +1,70 @@
+.LeftSection__title{
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    
+    
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.LeftSection__text{
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga' off;
+    color: #374151;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .LeftSection__title{
+        font-size: 64px;
+        height: 160px;
+        line-height: 80px;
+        width: 592px;
+   }
+   .LeftSection__text{
+        font-size: 18px;
+        line-height: 28px;
+        width: 592px;
+   }
+
+}
+@media (min-width: 1440px){
+    .LeftSection__title{
+        font-size: 64px;
+        height: 160px;
+        line-height: 80px;
+        width: 592px;
+   }
+   .LeftSection__text{
+        font-size: 18px;
+        line-height: 28px;
+        width: 592px;
+   }
+}
+
+@media (max-width: 767px) {
+    .LeftSection__title{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .LeftSection__text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+

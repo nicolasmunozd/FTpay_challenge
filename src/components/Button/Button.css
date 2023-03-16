@@ -1,0 +1,22 @@
+.button{
+    
+    width: 145px;
+    height: 40px;
+    right: 112px;
+    color: #FFFFFF;
+
+    background: #0876DD;
+    border-radius: 6px;
+    border:1px solid #0876DD;
+}
+
+.button:hover{
+    border:1px solid #0876DD;
+    background: #FFFFFF;
+    color: #0876DD;
+}
+
+.Navbar .button{
+    position: absolute;
+    top:24px;
+}
