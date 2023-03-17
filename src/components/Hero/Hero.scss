@@ -12,6 +12,11 @@
         margin: 0 auto;
     }
 
+    @media (max-width: 767px) {
+        width:90%;
+        margin: 0 auto;
+    }
+
     &__section{
         @media (min-width: 1440px){
             display: flex;

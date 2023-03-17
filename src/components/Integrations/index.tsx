@@ -15,7 +15,7 @@ const Integrations = (): JSX.Element => {
                 <div className='Integrations__title'>Integrate with your favorite tools</div>
                 <div className='Integrations__text'>Connect RegiM with your most favorite sales and marketing tools</div>
             </div>
-            <div className='Integrations__container__logo'>
+            <div className='Integrations__containter__logo'>
                 <div className='Integrations__Logo--row'>
                     <Logo classes="Logo__integration" img={ SLACK } alt="Logo de Slack" />
                     <Logo classes="Logo__integration" img={ QUICKBOOKS } alt="Logo de QuickBooks" />
