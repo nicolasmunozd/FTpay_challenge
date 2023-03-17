@@ -9,6 +9,7 @@ const Hero = (): JSX.Element => {
             <LeftSection />
             <Mockups />
         </section>
+        <hr />
     </div>)
 }
 

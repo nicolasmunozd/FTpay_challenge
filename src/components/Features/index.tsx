@@ -13,7 +13,7 @@ const Features = (): JSX.Element => {
                 <div className="Features__title">All-in-one Event Platform</div>
                 <div className="Features__text">Deliver an exceptional event experience</div>
 
-                <div className='Features__video'>
+                <div className='Features__video animate__animated animate__bounceInLeft'>
                     <Video />
                 </div>
 

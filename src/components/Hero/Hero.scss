@@ -2,7 +2,7 @@
 
 .Hero{
     @media (min-width: 768px) {
-        height: 1286px;
+        // height: 1340px;
         width:90%;
         margin: 0 auto;
     }
@@ -25,42 +25,31 @@
     }
 
     &::before{
-       
-
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
+        position: absolute;
         @media (min-width: 768px) {
-            background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
-            background-repeat: no-repeat;
-            background-size: contain;
             content: ''; 
             height: 700px;
-            position: absolute;
             right: 0px;
-            width: 700px;
-            z-index: -1;
-            top:200px;
+            width: 612px;
+            top: 200px;
+
         }
         @media (min-width: 1440px){
-            background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
-            background-repeat: no-repeat;
-            background-size: contain;
             content: ''; 
-            height: 400px;
-            position: absolute;
-            right: -120px;
-            width: 400px;
-            z-index: -1;
+            top:0px;
+            height: 800px;
+            width: 700px;
+            background-position: top -200px left 10px;
         }
         
         @media (max-width: 767px) {
-            background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
-            background-repeat: no-repeat;
-            background-size: contain;
             content: ''; 
             height: 500px;
-            position: absolute;
-            width:500px;
+            width: 435px;
             right: 0px;
-            z-index: -1;
             top:300px;
         }
         

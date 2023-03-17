@@ -4,26 +4,46 @@
     
     width:90%;
     margin: 0 auto;
-    background-image: url('../../assets/images/backgrounds/ellipse.svg');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: '';
 
     @media (min-width: 768px) {
         height: 588px;
         padding-top: 40px;
+        background-image: url('../../assets/images/backgrounds/ellipse.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     @media (min-width: 1440px){
-        height: 540px;
+        height: 400px;
         display: flex;
-        padding-top: 60px;
+        padding-top: 0px;
+        background-image: url('../../assets/images/backgrounds/ellipse.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom 200px left 10px;
+        flex-direction: row;
     }
     
     @media (max-width: 767px) {
+        background-image: url('../../assets/images/backgrounds/ellipse.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     
     }
     
+    &__hr{
+       width: 90%;
+       margin: 0 auto; 
+    }
 
     &__Logo--row{
         display: flex;
@@ -31,24 +51,32 @@
         align-items: flex-start;
         padding: 0px;
        
+        @media (min-width: 768px) {
+            gap: 72px;
+        }
+        @media (min-width: 1440px){
+            gap: 72px;
+            width: 40%;
+        }
+        
+        @media (max-width: 767px) {
+            gap: 32px;
+        }
         
 
         & img{
             @media (min-width: 768px) {
                 height: 80px;
                 width: 80px;
-                gap: 72px;
             }
             @media (min-width: 1440px){
                 height: 80px;
                 width: 80px;
-                gap: 72px;
             }
     
             @media (max-width: 767px) {
                 height: 56px;
                 width: 56px;
-                gap: 32px;
             }
         }
     }
@@ -56,11 +84,11 @@
     &__Logo--row--margin{
         
         @media (min-width: 768px) {
-            margin-left: 70px;
+            // margin-left: 70px;
             margin-top: 30px;
         }
         @media (min-width: 1440px){
-            margin-left: 70px;
+            margin-left: 150px;
             margin-top: 30px;
         }
         
@@ -73,8 +101,6 @@
 
     &__title{
         font-weight: 600;
-       
-        
         letter-spacing: -0.01em;
         font-feature-settings: 'liga' off;
         color: #111827;
@@ -135,7 +161,7 @@
             
             @media (max-width: 767px) {
                 margin-bottom: 30px;
-                margin-top: 50px;
+                margin-top: 20px;
             }
         }
         

@@ -3,22 +3,15 @@
     padding-top: 24px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    position: relative;
 
     &__button{
-
+        
         &__container{
-            @media (min-width: 768px) {
-                display: flex;
-                gap: 20px;
-            }
-            @media (min-width: 1440px){
-                display: flex;
-                gap: 20px;
-            }
-            
+            display: flex;
+            gap: 20px;
             @media (max-width: 767px) {
-                display: flex;
-                gap: 20px;
                 flex-direction: column-reverse;
             }
             

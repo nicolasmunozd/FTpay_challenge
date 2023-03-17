@@ -10,6 +10,11 @@ import MARKETO from '../../assets/images/logos/marketo.svg'
 
 const Integrations = (): JSX.Element => {
   return (
+
+    <div>
+        <div className='Integrations__hr'>
+            <hr />
+        </div>
         <div className='Integrations'>
             <div className='Integrations__containter'>
                 <div className='Integrations__title'>Integrate with your favorite tools</div>
@@ -30,6 +35,7 @@ const Integrations = (): JSX.Element => {
 
             </div>
         </div>
+    </div>
   )
 }
 
