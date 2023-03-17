@@ -21,10 +21,50 @@
         @media (min-width: 1440px){
             display: flex;
         }
+
     }
 
     &::before{
-        background-image: url('../../assets/images/backgrounds/ellipse.svg');
-      }
+       
+
+        @media (min-width: 768px) {
+            background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: ''; 
+            height: 700px;
+            position: absolute;
+            right: 0px;
+            width: 700px;
+            z-index: -1;
+            top:200px;
+        }
+        @media (min-width: 1440px){
+            background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: ''; 
+            height: 400px;
+            position: absolute;
+            right: -120px;
+            width: 400px;
+            z-index: -1;
+        }
+        
+        @media (max-width: 767px) {
+            background-image: url('../../assets/images/backgrounds/ellipse-top.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: ''; 
+            height: 500px;
+            position: absolute;
+            width:500px;
+            right: 0px;
+            z-index: -1;
+            top:300px;
+        }
+        
+    }
+    
 }
 
