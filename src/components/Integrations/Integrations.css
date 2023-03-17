@@ -17,7 +17,6 @@
     align-items: flex-start;
     padding: 0px;
     gap: 72px;
-
     height: 80px;
 }
 
@@ -28,6 +27,7 @@
     letter-spacing: -0.01em;
     font-feature-settings: 'liga' off;
     color: #111827;
+    font-family: 'Archivo';
 }
 
 
@@ -83,7 +83,7 @@
     line-height: 28px;
     letter-spacing: 0.01em;
     font-feature-settings: 'liga' off;
-
+    font-family: 'Archivo';
     color: #374151;
 }
 

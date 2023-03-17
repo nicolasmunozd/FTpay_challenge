@@ -1,7 +1,7 @@
-import './Button.css';
+import './Button.css'
 
-const Button = () =>{
-    return (<button className='button'>Get Early Access</button>);
+const Button = (): JSX.Element => {
+  return (<button className='button'>Get Early Access</button>)
 }
 
-export{Button};
+export { Button }

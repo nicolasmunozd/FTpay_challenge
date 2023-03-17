@@ -8,6 +8,7 @@
     background: #0876DD;
     border-radius: 6px;
     border:1px solid #0876DD;
+    font-family: 'Archivo';
 }
 
 .button:hover{

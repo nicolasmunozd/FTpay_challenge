@@ -27,6 +27,7 @@
     flex-grow: 0;
     margin-top: 16px;
     margin-bottom: 40px;
+    font-family: 'Archivo';
 }
 
 @media (min-width: 768px) {

@@ -11,12 +11,14 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    project: ['./tsconfig.json']
   },
+  parser: '@typescript-eslint/parser',
   plugins: [
-    'react'
-  ],
+    '@typescript-eslint',
+    'react'],
   rules: {
-    semi: [2, 'always']
+    'react/react-in-jsx-scope': 'off'
   }
 };

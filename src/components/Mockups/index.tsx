@@ -1,14 +1,14 @@
-import './Mockups.css';
-import ATTENDEES from '../../assets/images/mockups/attendees.svg';
-import BADGE from '../../assets/images/mockups/badge.svg';
-import REGISTRATION from '../../assets/images/mockups/registration-graph.svg';
-import REGISTRATIONS from '../../assets/images/mockups/registrations-split-count.svg';
-import SPEAKER from '../../assets/images/mockups/speaker-card.svg';
-import SALES from '../../assets/images/mockups/ticket-sales.svg';
-import TICKET from '../../assets/images/mockups/ticket.svg';
+import './Mockups.css'
+import ATTENDEES from '../../assets/images/mockups/attendees.svg'
+import BADGE from '../../assets/images/mockups/badge.svg'
+import REGISTRATION from '../../assets/images/mockups/registration-graph.svg'
+import REGISTRATIONS from '../../assets/images/mockups/registrations-split-count.svg'
+import SPEAKER from '../../assets/images/mockups/speaker-card.svg'
+import SALES from '../../assets/images/mockups/ticket-sales.svg'
+import TICKET from '../../assets/images/mockups/ticket.svg'
 
-const Mockups = () =>{
-    return (
+const Mockups = (): JSX.Element => {
+  return (
         <div className='Mockups'>
             <div>
                 <img src={BADGE} className="Mockups__BADGE"/>
@@ -26,7 +26,7 @@ const Mockups = () =>{
                 <img src={SALES} className="Mockups__SALES" />
             </div>
         </div>
-    );
+  )
 }
 
-export {Mockups}
+export { Mockups }

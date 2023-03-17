@@ -1,13 +1,12 @@
-import './Feature.css';
-interface FeatureProps{
-    icon: string;
-    title: string;
-    text: string;
+import './Feature.css'
+interface FeatureProps {
+  icon: string
+  title: string
+  text: string
 }
 
-
-const Feature = ({ icon, title, text }:FeatureProps) =>{ 
-    return(
+const Feature = ({ icon, title, text }: FeatureProps): JSX.Element => {
+  return (
         <div className="Feature">
             <img src={icon}/>
             <div>
@@ -15,7 +14,7 @@ const Feature = ({ icon, title, text }:FeatureProps) =>{
                 <div className="Feature__text">{text}</div>
             </div>
         </div>
-    );
+  )
 }
 
 export { Feature }

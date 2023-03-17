@@ -10,13 +10,14 @@
     font-size: 56px;
     line-height: 72px;
     text-align: center;
+    font-family: 'Archivo';
 }
 
 .Features__text{
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-
+    font-family: 'Archivo';
     text-align: center;
 }
 
