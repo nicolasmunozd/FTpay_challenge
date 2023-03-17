@@ -1,7 +1,7 @@
 .Cta{
     display: flex;
     flex-direction: column;
-    padding: 64px 112px;
+    padding: 64px 112px 0px 112px;
     gap: 10px;
 
     background: #111827;
