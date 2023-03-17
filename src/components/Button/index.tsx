@@ -1,7 +1,12 @@
 import './Button.scss'
 
-const Button = (): JSX.Element => {
-  return (<button className='button'>Get Early Access</button>)
+interface ButtonProps {
+  text: string
+  onClick?: () => void
+}
+
+const Button = ({ text, onClick }: ButtonProps): JSX.Element => {
+  return (<button className='button' onClick={onClick}>{text}</button>)
 }
 
 export { Button }

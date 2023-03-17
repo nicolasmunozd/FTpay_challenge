@@ -10,7 +10,7 @@ const Cta = (): JSX.Element => {
 
             </div>
             <div className='Cta__button'>
-                <Button />
+                <Button text='Get Early Access' />
             </div>
 
         </div>

@@ -1,5 +1,15 @@
 .Navbar{
     height: 80px;
-    margin-top: 24px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    &__button{
+
+        &__container{
+            display: flex;
+            gap: 20px;
+        }
+    }
 }
 
