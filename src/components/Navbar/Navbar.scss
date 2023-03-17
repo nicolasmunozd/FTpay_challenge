@@ -7,8 +7,21 @@
     &__button{
 
         &__container{
-            display: flex;
-            gap: 20px;
+            @media (min-width: 768px) {
+                display: flex;
+                gap: 20px;
+            }
+            @media (min-width: 1440px){
+                display: flex;
+                gap: 20px;
+            }
+            
+            @media (max-width: 767px) {
+                display: flex;
+                gap: 20px;
+                flex-direction: column-reverse;
+            }
+            
         }
     }
 }
