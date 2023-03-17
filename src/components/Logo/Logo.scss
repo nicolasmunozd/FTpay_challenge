@@ -1,0 +1,15 @@
+@use '../../scss/base/variables' as variable;
+.Logo{
+    &__regim{
+        position: absolute;
+        width: 108px;
+        height: 32px;
+    }
+    &__integration{
+        width: 80px;
+        height: 80px;
+        background: variable.$background;
+        box-shadow: 4px 12px 24px rgba(28, 44, 64, 0.08);
+        border-radius: 100px;
+    }
+}

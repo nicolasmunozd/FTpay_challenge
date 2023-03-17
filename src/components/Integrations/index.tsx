@@ -17,15 +17,15 @@ const Integrations = (): JSX.Element => {
             </div>
             <div className='Integrations__container__logo'>
                 <div className='Integrations__Logo--row'>
-                    <Logo classes="Logo_integration" img={ SLACK } alt="Logo de Slack" />
-                    <Logo classes="Logo_integration" img={ QUICKBOOKS } alt="Logo de QuickBooks" />
-                    <Logo classes="Logo_integration" img={ MAILCHIMP } alt="Logo de Mailchimp" />
-                    <Logo classes="Logo_integration" img={ HUBSPOT } alt="Logo de HubSpot" />
+                    <Logo classes="Logo__integration" img={ SLACK } alt="Logo de Slack" />
+                    <Logo classes="Logo__integration" img={ QUICKBOOKS } alt="Logo de QuickBooks" />
+                    <Logo classes="Logo__integration" img={ MAILCHIMP } alt="Logo de Mailchimp" />
+                    <Logo classes="Logo__integration" img={ HUBSPOT } alt="Logo de HubSpot" />
                 </div>
                 <div className='Integrations__Logo--row Integrations__Logo--row--margin'>
-                    <Logo classes="Logo_integration" img={ ZAPIER } alt="Logo de Zapier" />
-                    <Logo classes="Logo_integration" img={ GOOGLE } alt="Logo de Google Analytics" />
-                    <Logo classes="Logo_integration" img={ MARKETO } alt="Logo de Marketo" />
+                    <Logo classes="Logo__integration" img={ ZAPIER } alt="Logo de Zapier" />
+                    <Logo classes="Logo__integration" img={ GOOGLE } alt="Logo de Google Analytics" />
+                    <Logo classes="Logo__integration" img={ MARKETO } alt="Logo de Marketo" />
                 </div>
 
             </div>

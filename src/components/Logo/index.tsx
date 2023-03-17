@@ -1,5 +1,5 @@
 
-import './Logo.css'
+import './Logo.scss'
 
 interface LogoProps {
   img: string
