@@ -20,6 +20,11 @@
     height: 80px;
 }
 
+.Integrations__Logo--row--margin{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
 .Integrations__title{
     font-weight: 600;
     font-size: 56px;

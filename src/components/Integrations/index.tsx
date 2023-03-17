@@ -22,7 +22,7 @@ const Integrations = (): JSX.Element => {
                     <Logo classes="Logo_integration" img={ MAILCHIMP } alt="Logo de Mailchimp" />
                     <Logo classes="Logo_integration" img={ HUBSPOT } alt="Logo de HubSpot" />
                 </div>
-                <div className='Integrations__Logo--row'>
+                <div className='Integrations__Logo--row Integrations__Logo--row--margin'>
                     <Logo classes="Logo_integration" img={ ZAPIER } alt="Logo de Zapier" />
                     <Logo classes="Logo_integration" img={ GOOGLE } alt="Logo de Google Analytics" />
                     <Logo classes="Logo_integration" img={ MARKETO } alt="Logo de Marketo" />

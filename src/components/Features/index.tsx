@@ -6,7 +6,7 @@ import iconThree from '../../assets/images/icons/icon-three.svg'
 import iconFour from '../../assets/images/icons/icon-four.svg'
 import iconFive from '../../assets/images/icons/icon-five.svg'
 import iconSix from '../../assets/images/icons/icon-six.svg'
-import imgVideo from '../../assets/images/videos/video-thumbnail.svg'
+import { Video } from '../Video'
 
 const Features = (): JSX.Element => {
   return (<div className="Features">
@@ -14,7 +14,7 @@ const Features = (): JSX.Element => {
                 <div className="Features__text">Deliver an exceptional event experience</div>
 
                 <div className='Features__video'>
-                    <img src={ imgVideo } />
+                    <Video />
                 </div>
 
                 <div className='Features__container'>
