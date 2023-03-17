@@ -1,0 +1,187 @@
+@use '../../scss/base/variables' as variable;
+
+.Integrations{
+    
+    width:90%;
+    margin: 0 auto;
+    // background-image: url(/src/assets/images/backgrounds/ellipse.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+
+    @media (min-width: 768px) {
+        height: 588px;
+        padding-top: 40px;
+    }
+    @media (min-width: 1440px){
+        height: 540px;
+        display: flex;
+        padding-top: 60px;
+    }
+    
+    @media (max-width: 767px) {
+    
+    }
+    
+
+    &__Logo--row{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 72px;
+        height: 80px;
+    }
+
+    &__Logo--row--margin{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+
+    &__title{
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 72px;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'liga' off;
+        color: #111827;
+        font-family: variable.$font-family;
+
+        @media (min-width: 768px) {
+            text-align: center;
+        }
+        @media (min-width: 1440px){
+            text-align: initial;
+        }
+        
+        @media (max-width: 767px) {
+        
+        }
+    }
+
+    &__containter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 0px 0px 48px;
+        gap: 24px;
+        width: 592px;
+        height: 196px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'liga' off;
+        font-family: variable.$font-family;
+        color: #374151;
+
+        @media (min-width: 768px) {
+            font-size: variable.$font-size-text-md;
+        }
+        @media (min-width: 1440px){
+            font-size: variable.$font-size-text-lg;
+        }
+        
+        @media (max-width: 767px) {
+            font-size: variable.$font-size-text-sm;
+        }
+        
+    }
+}
+
+
+// .Integrations__Logo--row{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: flex-start;
+//     padding: 0px;
+//     gap: 72px;
+//     height: 80px;
+// }
+
+// .Integrations__Logo--row--margin{
+//     margin-left: 70px;
+//     margin-top: 30px;
+// }
+
+// .Integrations__title{
+//     font-weight: 600;
+//     font-size: 56px;
+//     line-height: 72px;
+//     letter-spacing: -0.01em;
+//     font-feature-settings: 'liga' off;
+//     color: #111827;
+//     font-family: 'Archivo';
+// }
+
+
+@media (min-width: 768px) {
+    // .Integrations{
+    //     height: 588px;
+    //     padding-top: 40px;
+    // }
+    // .Integrations__title{
+    //     text-align: center;
+    // }
+    // .Integrations__containter{
+    //     margin-bottom: 40px;
+    // }
+}
+
+@media (min-width: 1440px){
+    // .Integrations{
+    //     height: 540px;
+    //     display: flex;
+    //     padding-top: 60px;
+    // }
+    // .Integrations__title{
+    //     text-align: initial;
+    // }
+}
+
+
+
+@media (max-width: 767px) {
+
+}
+
+
+
+// .Integrations__containter{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     padding: 0px 0px 0px 48px;
+//     gap: 24px;
+
+//     width: 592px;
+//     height: 196px;
+// }
+
+
+
+.Integrations__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga' off;
+    font-family: 'Archivo';
+    color: #374151;
+}
+
+
+
+// .Integrations__container__logo:nth-last-child() {
+//     margin-left: 70px;
+// }

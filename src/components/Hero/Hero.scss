@@ -1,0 +1,21 @@
+@use '../../scss/base/variables' as variable;
+
+.Hero{
+    @media (min-width: 768px) {
+        height: 1286px;
+        width:90%;
+        margin: 0 auto;
+    }
+    @media (min-width: 1440px){
+        height: 820px;
+        width:90%;
+        margin: 0 auto;
+    }
+
+    &__section{
+        @media (min-width: 1440px){
+            display: flex;
+        }
+    }
+}
+

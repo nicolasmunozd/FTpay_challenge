@@ -1,5 +1,5 @@
 import { Logo } from '../Logo'
-import './Integrations.css'
+import './Integrations.scss'
 import SLACK from '../../assets/images/logos/slack.svg'
 import QUICKBOOKS from '../../assets/images/logos/quickbooks.svg'
 import MAILCHIMP from '../../assets/images/logos/mailchimp.svg'

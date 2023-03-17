@@ -1,6 +1,6 @@
 import { Navbar } from '../Navbar'
 import { LeftSection } from '../LeftSection'
-import './Hero.css'
+import './Hero.scss'
 import { Mockups } from '../Mockups'
 const Hero = (): JSX.Element => {
   return (<div className="Hero">
