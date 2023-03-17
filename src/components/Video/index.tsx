@@ -1,6 +1,6 @@
 import video from '../../assets/images/videos/video-thumbnail.svg'
 import play from '../../assets/images/videos/action.svg'
-import './Video.css'
+import './Video.scss'
 
 const Video = (): JSX.Element => {
   return (

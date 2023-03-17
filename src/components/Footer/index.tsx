@@ -1,4 +1,4 @@
-import './Footer.css'
+import './Footer.scss'
 import REGISOLO from '../../assets/images/logos/regim-solo.svg'
 
 const Footer = (): JSX.Element => {

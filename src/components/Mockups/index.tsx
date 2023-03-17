@@ -1,4 +1,4 @@
-import './Mockups.css'
+import './Mockups.scss'
 import ATTENDEES from '../../assets/images/mockups/attendees.svg'
 import BADGE from '../../assets/images/mockups/badge.svg'
 import REGISTRATION from '../../assets/images/mockups/registration-graph.svg'

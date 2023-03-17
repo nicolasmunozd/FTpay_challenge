@@ -1,0 +1,17 @@
+.Mockups{
+    height: 628px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    @media (min-width: 768px) {
+        margin-top: 60px;
+    }
+
+    & div:nth-child(1){
+        margin-top: 25px;
+    }
+    & div:nth-child(3){
+        margin-top: 60px;
+    }
+}
