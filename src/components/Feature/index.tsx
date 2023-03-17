@@ -1,4 +1,4 @@
-import './Feature.css'
+import './Feature.scss'
 interface FeatureProps {
   icon: string
   title: string

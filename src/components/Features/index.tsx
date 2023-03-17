@@ -1,4 +1,4 @@
-import './Features.css'
+import './Features.scss'
 import { Feature } from '../Feature'
 import iconOne from '../../assets/images/icons/icon-one.svg'
 import iconTwo from '../../assets/images/icons/icon-two.svg'

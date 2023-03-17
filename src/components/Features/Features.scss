@@ -1,0 +1,45 @@
+@use '../../scss/base/variables' as variable;
+
+.Features{
+    height: 1420px;
+    width:90%;
+    margin: 0 auto;
+
+    &__title{
+        color: #111827;
+        font-weight: 600;
+        font-size: variable.$font-size-subtitle-lg;
+        line-height: 72px;
+        text-align: center;
+        font-family: variable.$font-family;
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: variable.$font-size-text-lg;
+        line-height: 28px;
+        font-family: variable.$font-family;
+        text-align: center;
+    }
+
+    &__video{
+        left: 336px;
+        top: 252px;
+        border-radius: 6px;
+    }
+
+    &__container{
+        display: grid;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (min-width: 1440px){
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        @media (max-width: 767px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
