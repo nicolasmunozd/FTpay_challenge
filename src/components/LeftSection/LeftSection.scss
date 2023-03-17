@@ -1,0 +1,72 @@
+@use '../../scss/base/variables' as variable;
+
+.LeftSection{
+
+    &__title{
+        
+        font-family: variable.$font-family;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        font-feature-settings: 'liga' off;
+        color: #111827;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        body.dark &{
+            color: white;
+        }
+
+        @media (min-width: 768px) {
+            font-size: variable.$font-size-title-md;
+            height: 160px;
+            line-height: 80px;
+            width: 592px;
+        }
+
+        @media (min-width: 1440px){
+            font-size: variable.$font-size-title-lg;
+            height: 160px;
+            line-height: 80px;
+            width: 592px;
+        }
+        @media (max-width: 767px){
+            font-size: variable.$font-size-title-sm;
+            line-height: 48px;
+        }
+        
+    }
+    &__text{
+        height: 56px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'liga' off;
+        color: #374151;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: 16px;
+        margin-bottom: 40px;
+        font-family: variable.$font-family;
+
+        @media (min-width: 768px){
+            font-size: variable.$font-size-text-md;
+            line-height: 28px;
+            width: 592px;
+        }
+
+        @media (min-width: 1440px){
+            font-size: variable.$font-size-text-lg;
+            line-height: 28px;
+            width: 592px;
+        }
+
+        @media (max-width: 767px){
+            font-size: variable.$font-size-text-sm;
+            line-height: 24px;
+        }
+    }
+}

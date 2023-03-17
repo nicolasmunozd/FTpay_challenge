@@ -1,18 +1,19 @@
+@use '../../scss/base/variables' as variable;
+
 .button{
     
     width: 145px;
     height: 40px;
     right: 112px;
     color: #FFFFFF;
-
-    background: #0876DD;
+    background: variable.$color-primary;
     border-radius: 6px;
-    border:1px solid #0876DD;
+    border:1px solid variable.$color-primary;
     font-family: 'Archivo';
 }
 
 .button:hover{
-    border:1px solid #0876DD;
+    border:1px solid variable.$color-primary;
     background: #FFFFFF;
     color: #0876DD;
 }

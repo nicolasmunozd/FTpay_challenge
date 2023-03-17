@@ -1,0 +1,107 @@
+@use '../../scss/base/variables' as variable;
+
+.Cta{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 112px 0px 112px;
+    gap: 10px;
+    background: #111827;
+    align-items: center;
+
+    @media (min-width: 768px){
+        height: 444px;
+    }
+
+    @media (min-width: 1440px){
+        height: 444px;
+    }
+
+    @media (max-width: 767px){
+        height: 408px;
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 48px 208px;
+        gap: 40px;
+        width: 1216px;
+        height: 316px;
+        border-radius: 8px;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        margin-bottom: 40px;
+        height: 132px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    &__title{
+        height: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+        font-family: variable.$font-family;
+        text-align: center;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+
+        
+        @media (min-width: 768px){
+            width:688px;
+            font-size: variable.$font-size-cta-title-md;
+        }
+
+        @media (min-width: 1440px){
+            width: 800px;
+            font-size: variable.$font-size-cta-title-lg;
+        }
+        @media (max-width: 767px){
+            font-size: variable.$font-size-cta-title-sm;
+            min-width: 335px;
+            min-height: 80px;
+        }
+    }
+
+    &__text{
+    
+        height: 56px;
+        font-family: variable.$font-family;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            width:688px;
+            font-size: variable.$font-size-text-md;
+        }
+        @media (min-width: 1440px){
+            width: 800px;
+            font-size: variable.$font-size-text-lg;
+        }
+        
+        @media (max-width: 767px) {
+            font-size: variable.$font-size-text-sm;
+            min-width: 335px;
+            margin-top: 30px;
+        }
+    }
+    &__button{
+        margin-top: 90px;
+    }
+}
+

@@ -1,5 +1,5 @@
 import { Button } from '../Button'
-import './LeftSection.css'
+import './LeftSection.scss'
 
 const LeftSection = (): JSX.Element => {
   return (<div>

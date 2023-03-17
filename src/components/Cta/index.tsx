@@ -1,4 +1,4 @@
-import './Cta.css'
+import './Cta.scss'
 import { Button } from '../Button'
 
 const Cta = (): JSX.Element => {
