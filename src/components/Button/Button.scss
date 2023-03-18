@@ -2,14 +2,23 @@
 
 .button{
     
-    width: 145px;
-    height: 40px;
     right: 112px;
     color: #FFFFFF;
     background: variable.$color-primary;
     border-radius: 6px;
     border:1px solid variable.$color-primary;
     font-family: 'Archivo';
+    cursor: pointer;
+
+    &__lg{
+        width: 161px;
+        height: 48px;
+    }
+
+    &__md{
+        width: 145px;
+        height: 40px;
+    }
 }
 
 .button:hover{

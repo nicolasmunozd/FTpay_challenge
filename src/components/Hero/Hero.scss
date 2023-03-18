@@ -7,7 +7,7 @@
         margin: 0 auto;
     }
     @media (min-width: 1440px){
-        height: 820px;
+        // height: 820px;
         width:90%;
         margin: 0 auto;
     }
@@ -18,8 +18,13 @@
     }
 
     &__section{
+        z-index: 1;
+        position: relative;
         @media (min-width: 1440px){
             display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
         }
 
     }

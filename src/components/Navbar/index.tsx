@@ -19,8 +19,8 @@ const Navbar = (): JSX.Element => {
         <div className="Navbar">
             <Logo classes="Logo__regim" img={LOGO} alt="Logo de RegiM" />
             <div className='Navbar__button__container'>
-              <Button text={`Current theme: ${theme as string}`} onClick={handleChangeTheme} />
-              <Button text='Get Early Access' />
+              <Button text={`Current theme: ${theme as string}`} onClick={handleChangeTheme} classes='button button__md' />
+              <Button text='Get Early Access' classes='button button__md' />
             </div>
         </div>
   )
