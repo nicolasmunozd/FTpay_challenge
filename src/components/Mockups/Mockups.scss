@@ -12,7 +12,14 @@
     @media (max-width: 767px) {
         margin-top: 60px;
         height: 428px;
-        grid-gap: 10px;
+        grid-gap: 0px;
+        height: 450px;
+    }
+
+    @media (max-width: 767px) {
+        margin-top: 60px;
+        height: 428px;
+        grid-gap: 5px;
         height: 450px;
     }
 
@@ -61,7 +68,7 @@
         }
 
         @media (max-width: 767px) {
-            width: 140px;
+            width: 130px;
         }
         
         @media (max-width: 450px) {
