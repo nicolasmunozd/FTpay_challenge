@@ -84,16 +84,13 @@
     &__Logo--row--margin{
         
         @media (min-width: 768px) {
-            // margin-left: 70px;
             margin-top: 30px;
         }
         @media (min-width: 1440px){
-            // margin-left: 150px;
             margin-top: 30px;
         }
         
         @media (max-width: 767px) {
-            // margin-left: 15px;
             margin-top: 30px;
         }
     }
