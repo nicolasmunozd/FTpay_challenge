@@ -11,19 +11,19 @@ const Mockups = (): JSX.Element => {
   return (
         <div className='Mockups'>
             <div>
-                <img src={BADGE} className="Mockups__BADGE animate__animated animate__backInLeft"/>
-                <img src={REGISTRATION} className="Mockups__REGISTRATION animate__animated animate__backInLeft" />
+                <img src={BADGE} className="Mockups__BADGE animate__animated animate__pulse"/>
+                <img src={REGISTRATION} className="Mockups__REGISTRATION animate__animated animate__pulse" />
             </div>
 
             <div>
-                <img src={SPEAKER} className="Mockups__SPEAKER animate__animated animate__backInDown" />
-                <img src={REGISTRATIONS} className="Mockups__REGISTRATIONS Mockups__SPEAKER animate__animated animate__backInDown" />
-                <img src={TICKET} className="Mockups__TICKET animate__animated animate__backInUp" />
+                <img src={SPEAKER} className="Mockups__SPEAKER animate__animated animate__pulse" />
+                <img src={REGISTRATIONS} className="Mockups__REGISTRATIONS Mockups__SPEAKER animate__animated animate__pulse" />
+                <img src={TICKET} className="Mockups__TICKET animate__animated animate__pulse" />
             </div>
 
             <div>
-                <img src={ATTENDEES} className="Mockups__ATTENDEES animate__animated animate__backInRight" />
-                <img src={SALES} className="Mockups__SALES animate__animated animate__backInRight" />
+                <img src={ATTENDEES} className="Mockups__ATTENDEES animate__animated animate__pulse" />
+                <img src={SALES} className="Mockups__SALES animate__animated animate__pulse" />
             </div>
         </div>
   )
