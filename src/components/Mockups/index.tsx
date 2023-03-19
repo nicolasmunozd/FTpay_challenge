@@ -9,21 +9,21 @@ import TICKET from '../../assets/images/mockups/ticket.svg'
 
 const Mockups = (): JSX.Element => {
   return (
-        <div className='Mockups'>
+        <div className='Mockups animate__animated animate__pulse animate__delay-1s'>
             <div>
-                <img src={BADGE} className="Mockups__BADGE animate__animated animate__pulse"/>
-                <img src={REGISTRATION} className="Mockups__REGISTRATION animate__animated animate__pulse" />
+                <img src={BADGE} className="Mockups__BADGE "/>
+                <img src={REGISTRATION} className="Mockups__REGISTRATION " />
             </div>
 
             <div>
-                <img src={SPEAKER} className="Mockups__SPEAKER animate__animated animate__pulse" />
-                <img src={REGISTRATIONS} className="Mockups__REGISTRATIONS Mockups__SPEAKER animate__animated animate__pulse" />
-                <img src={TICKET} className="Mockups__TICKET animate__animated animate__pulse" />
+                <img src={SPEAKER} className="Mockups__SPEAKER " />
+                <img src={REGISTRATIONS} className="Mockups__REGISTRATIONS Mockups__SPEAKER " />
+                <img src={TICKET} className="Mockups__TICKET " />
             </div>
 
             <div>
-                <img src={ATTENDEES} className="Mockups__ATTENDEES animate__animated animate__pulse" />
-                <img src={SALES} className="Mockups__SALES animate__animated animate__pulse" />
+                <img src={ATTENDEES} className="Mockups__ATTENDEES " />
+                <img src={SALES} className="Mockups__SALES " />
             </div>
         </div>
   )
